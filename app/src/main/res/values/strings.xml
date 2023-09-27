@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">TravellingWay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="SelectImageBeach">SELECT IMAGE</string>
+    <string name="AddBeach">Add</string>
+
+    <string name="DescriptionDataDisplay">Description</string>
+    <string name="InfoDataDisplay">Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</string>
+    <string name="BookDataDisplay">Book</string>
+    <string name="PlaceDataDisplay">Place</string>
+    <string name="RateDataDisplay">5</string>
+    <string name="LocationDataDisplay">Location</string>
+    <string name="PriceDataDisplay">Price</string>
+
+    <string name="SelectImageDesert">SELECT IMAGE</string>
+    <string name="AddDesert">Add</string>
+
+    <string name="TempleDisplayPlace">Temples</string>
+    <string name="InfoDisplayPlace">Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</string>
+    <string name="BookDisplayPlace">Book</string>
+    <string name="PlaceDisplayPlace">Place</string>
+    <string name="RateDisplayPlace">5</string>
+    <string name="LocationDisplayPlace">Location</string>
+    <string name="PriceDisplayPlace">5000</string>
+
+
+
+
+    <string name="SelectImageForest">SELECT IMAGE</string>
+    <string name="AddForest">Add</string>
+    <string name="SelectImageHomeScreen">SELECT IMAGE</string>
+    <string name="AddHomeScreen">Add</string>
+    <string name="ShowHomeScreen">Show</string>
+    <string name="LoginAccount">Logining Your Account</string>
+    <string name="Loginlogin">LOGIN</string>
+    <string name="LoginOR">OR</string>
+    <string name="LoginCreateAccount">CREATE ACCOUNT</string>
+    <string name="SelectImageMountain">SELECT IMAGE</string>
+    <string name="AddMountain">Add</string>
+    <string name="SelectImageProfile">SELECT IMAGE</string>
+    <string name="AddProfile">Add</string>
+    <string name="ShowProfile">Show</string>
+    <string name="SignUpDetail">Lets get your Basic Details</string>
+    <string name="SignUPAccount">CREATE ACCOUNT</string>
+
+    <string name="CategoryItemPlace">Place</string>
+    <string name="CategoryItemLocation">Location</string>
+    <string name="CategoryItemPrice">5000</string>
+    <string name="CategoryItemRate">5</string>
+    <string name="CategoryItemBuy">Buy</string>
+
+    <string name="HomeCategory">Categouries</string>
+    <string name="HomeMountain">Mountain</string>
+    <string name="HomeBeach">Beach</string>
+    <string name="HomeLake">Lack</string>
+    <string name="HomeDesert">Desert</string>
+    <string name="HomrTemples">Temple</string>
+    <string name="HomeDairasar">Dairasar</string>
+
+
+    <string name="ProfileFmProfile">Profile</string>
+    <string name="ProfileFmName">Kaushik Makvana</string>
+    <string name="ProfileFmEmail">makvanakaushik2004@gmail.com</string>
+    <string name="ProfileFmMobile">9510789849</string>
+    <string name="ProfileFmBooking">Booking</string>
+    <string name="ProfileFmTerms">Terms Condition</string>
+    <string name="ProfileFmPrivacy">Privacy Policy</string>
+    <string name="ProfileFmAdmin">admin Account</string>
+    <string name="ProfileFmMountain">Mountain</string>
+    <string name="ProfileFmBeach">Beach</string>
+    <string name="ProfileFmLack">Lack</string>
+    <string name="ProfileFmDesert">Desert</string>
+    <string name="ProfileFmLogout">Log out</string>
+
+    <string name="ItemFileRate">5.5</string>
+    <string name="ItemFilePlace">National Museum</string>
+    <string name="ItemFileLocation">Singapore</string>
+
+
+    <string name="SliderItemFile">C++ data structure and ALgorithm Course</string>
+
+</resources>

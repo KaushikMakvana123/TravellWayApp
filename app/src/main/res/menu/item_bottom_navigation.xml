@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/home_bottom"
+        android:icon="@drawable/searchh"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:title="Explore"/>
+
+<!--    <item android:id="@+id/search_bottom"-->
+<!--        android:icon="@drawable/searchh"-->
+<!--        android:iconTint="@color/white"-->
+<!--        app:showAsAction="always"-->
+<!--        android:title="Search"/>-->
+
+    <item android:id="@+id/fav_bottom"
+        android:icon="@drawable/favorite"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:title="Favourites"/>
+
+
+    <item android:id="@+id/map_bottom"
+        android:icon="@drawable/maps"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:title="Map"/>
+
+    <item android:id="@+id/profile_bottom"
+        android:icon="@drawable/profilee"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:title="Profile"/>
+
+
+
+</menu>

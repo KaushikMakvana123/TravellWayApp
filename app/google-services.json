@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "943021610310",
+    "firebase_url": "https://travellingway-1cbcf-default-rtdb.firebaseio.com",
+    "project_id": "travellingway-1cbcf",
+    "storage_bucket": "travellingway-1cbcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943021610310:android:e0ad3d6e254d015c8f8147",
+        "android_client_info": {
+          "package_name": "com.example.travellingway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943021610310-sfh6qo8u5pjq7jaklurpf7q4agshnslu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travellingway",
+            "certificate_hash": "2b32315e5b0dbe6698be21654d48a3a52278db13"
+          }
+        },
+        {
+          "client_id": "943021610310-00t4mug1oqt8k6kte1s8t7idkskkmc6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzgAhXQdLc2pb8J9VHD0E0Ck1pVUvZL4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943021610310-00t4mug1oqt8k6kte1s8t7idkskkmc6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

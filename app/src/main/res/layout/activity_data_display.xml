@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DataDisplayActivity">
+
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/dark">
+
+        <ImageView
+            android:id="@+id/imgdisback"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:id="@+id/txttitlename"
+            android:layout_width="wrap_content"
+            android:text="@string/DescriptionDataDisplay"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="8"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+    </Toolbar>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_47sdp"
+
+        android:scrollbars="vertical"
+        app:layout_anchor="@+id/scrollView2"
+        app:layout_anchorGravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <ImageView
+                    android:id="@+id/img_beach"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/img"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:scaleType="fitXY"
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_15sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <TextView
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:id="@+id/txtplace"
+                            android:text="@string/PlaceDataDisplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="8"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_20sdp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="@dimen/_5sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/rate" />
+
+                            <TextView
+                                android:id="@+id/txtRate"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center"
+                                android:paddingHorizontal="@dimen/_3sdp"
+                                android:text="@string/RateDataDisplay"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/_20sdp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:src="@drawable/map" />
+
+                        <TextView
+                            android:id="@+id/txtLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="8"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:text="@string/LocationDataDisplay"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center_vertical"
+                            />
+
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="@dimen/_20sdp"-->
+<!--                            android:layout_height="@dimen/_20sdp"-->
+<!--                            android:layout_marginTop="@dimen/_12sdp"-->
+<!--                            android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                            android:src="@drawable/dollar" />-->
+
+                        <TextView
+                            android:id="@+id/txtPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="8"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:paddingHorizontal="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:text="@string/PriceDataDisplay"
+                            android:textSize="@dimen/_20sdp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            app:cardCornerRadius="@dimen/_7sdp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#02174C"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/InfoDataDisplay"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18ssp"
+                tools:ignore="HardcodedText"/>
+
+
+            <!--            <fragment xmlns:tools="http://schemas.android.com/tools"-->
+            <!--                android:id="@+id/map"-->
+            <!--                android:name="com.google.android.gms.maps.SupportMapFragment"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/_200sdp"-->
+            <!--                tools:context=".activity.DisplayplaceActivity" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/_35sdp"
+                android:weightSum="5">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/txtaddtocart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="5"
+                    android:background="@drawable/round_bg_2"
+                    android:backgroundTint="@color/dark"
+                    android:text="@string/BookDataDisplay"
+                    android:textColor="@color/white" />
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/imgaddtocart"-->
+                <!--                    android:layout_width="@dimen/_38sdp"-->
+                <!--                    android:layout_height="@dimen/_38sdp"-->
+                <!--                    android:layout_margin="@dimen/_5sdp"-->
+                <!--                    android:layout_weight="2"-->
+                <!--                    android:src="@drawable/shoppingcart"-->
+                <!--                   />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/fab"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_marginEnd="@dimen/fab_margin"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
